@@ -21,24 +21,24 @@ This project demonstrates the classification of handwritten digits using the MNI
 - Metrics Used:
     - Accuracy Score
     - Confusion Matrix
-    - Precision
-    - Recall
+    - Precision Score
+    - Recall Score
     - F1 Score
 - Visualizations:
     - Plotting sample digit images using matplotlib
 - Insightful experiments for understanding performance tradeoffs
 
-📊 Technologies Used
-Python 3
-NumPy
-Matplotlib
-Scikit-learn
-Google Colab
+# 📊 Technologies Used
+- Python 3
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Google Colab
 
-🧠 What I Learned
-How to work with image classification datasets
-How to preprocess image data (reshaping, scaling)
-How to train and evaluate a classification model
+# 🧠 What I Learned
+- How to work with image classification datasets
+- How to preprocess image data (reshaping, scaling)
+- How to train and evaluate a classification model
 
 #  Author
 Subhranil Dutta
