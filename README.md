@@ -4,8 +4,9 @@ Image classification using the MNIST dataset — built with Scikit-Learn, tuned 
 🔢 MNIST Digit Classification
 This project demonstrates the classification of handwritten digits using the MNIST dataset. It covers model training, evaluation, and sets the foundation for building machine learning pipelines and applying hyperparameter tuning.
 
-📂 Contents
-mnist_digit_classification.ipynb: Full Colab notebook covering model training, evaluation, and visualization
+# 📂 Contents
+- mnist_digit_classification.ipynb: Full Colab notebook covering model training, evaluation, and visualization
+- other_metrics.ipynb: Full Colab notebook with updates- Other Performance Metrics: Confusion Matrix,Precision,Recall,F1 Score.
 
 #  Features
 - Dataset loading using fetch_openml("mnist_784") from Scikit-learn
@@ -19,6 +20,10 @@ mnist_digit_classification.ipynb: Full Colab notebook covering model training, e
     - Accuracy evaluation on each fold
 - Metrics Used:
     - Accuracy Score
+    - Confusion Matrix
+    - Precision
+    - Recall
+    - F1 Score
 - Visualizations:
     - Plotting sample digit images using matplotlib
 - Insightful experiments for understanding performance tradeoffs
