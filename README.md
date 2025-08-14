@@ -57,6 +57,15 @@ This project demonstrates the classification of handwritten digits using the MNI
 - How to work with image classification datasets
 - How to preprocess image data (reshaping, scaling)
 - How to train and evaluate a classification model
+- How to calculate and interpret model performance scores (e.g., accuracy, precision, recall, F1-score, ROC AUC)
+- How to use decision_function() for detailed model output scores
+- How to adjust classification thresholds for specific goals (e.g., higher precision or recall)
+- How to generate and interpret Precision-Recall Curves
+- How to visualize the relationship between threshold choice and model performance
+- How to interpret and visualize ROC Curves & AUC scores
+- How to implement and evaluate ensemble methods like Random Forest
+- How to use predict_proba() for probabilistic classification
+- How to handle and evaluate multi-output binary classification tasks
 
 #  Author
 Subhranil Dutta
