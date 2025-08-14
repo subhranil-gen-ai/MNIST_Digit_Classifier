@@ -7,7 +7,7 @@ This project demonstrates the classification of handwritten digits using the MNI
 # 📂 Contents
 - mnist_digit_classification.ipynb: Full Colab notebook covering model training, evaluation, and visualization
 - other_metrics.ipynb: Full Colab notebook with updates- Other Performance Metrics: Confusion Matrix,Precision,Recall,F1 Score.
-- decision_function.ipynb- Full Colab notebook with updates- Decision Function, Precision Recall Curve, Custom Threshold, Precision Recall Trade-off.
+- decision_function.ipynb- Full Colab notebook with updates- Demonstrating Decision Function, Custom Decision Thresholds, Precision-Recall Curves with visualizations, and performance trade-offs.
 - roc_auc_random_forest_classifier.ipynb- Full Colab notebook with updates- ROC Curve, ROC AUC Score, and visual representations for both SGD Classifier and Random Forest Classifier models, implementing Multi-output Binary Classification using K-Neighbors Classifier.
 
 #  Features
@@ -28,12 +28,19 @@ This project demonstrates the classification of handwritten digits using the MNI
     - Precision Score
     - Recall Score
     - F1 Score
+- Decision Function & Threshold Tuning:
+  - Using decision_function() for score-based classification
+  - Implementing custom decision thresholds to optimize for precision or recall
+  - Visualization of how thresholds affect performance metrics
+- Precision-Recall Analysis:
+  - Precision-Recall Curves and area under curve
+  - Visual representations for understanding precision-recall trade-offs
 - Advanced Evaluation Metrics:
-    -ROC Curve & ROC AUC Score (SGD & Random Forest)
-    -Visualization of ROC Curves for multiple models
-    -predict_proba() method usage for probabilistic outputs
+  - ROC Curve & ROC AUC Score (SGD & Random Forest)
+  - Visualization of ROC Curves for multiple models
+  - predict_proba() method usage for probabilistic outputs
 - Extended Decision Analysis:
-    -Custom decision thresholds with ROC and Precision-Recall visualizations
+    - Custom decision thresholds with ROC and Precision-Recall visualizations
 - Visualizations:
     - Plotting sample digit images using matplotlib
     - Insightful experiments for understanding performance tradeoffs
